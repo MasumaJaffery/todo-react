@@ -8,7 +8,7 @@ const TodosList = () => (
     <Header />
     <div className="Main-div">
       <div className="Child-div">
-        <h1>Todo List by React</h1>
+        <h2>Todo List by React</h2>
         <figcaption>Add your list here!</figcaption>
       </div>
       <InputTodo />

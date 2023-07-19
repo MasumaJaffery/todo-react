@@ -90,12 +90,14 @@ const InputTodo = () => {
             ) : (
               <h4>{item.name}</h4>
             )}
-            <button type="button" className="add-btn" title="Edit-Item" onClick={() => editItem(item.id)}>
-              Edit
-            </button>
-            <button type="button" className="add-btn" title="Delete-Item" onClick={() => deleteItem(item.id)}>
-              Delete
-            </button>
+            <div className="btns">
+              <button type="button" className="add-btn" title="Edit-Item" onClick={() => editItem(item.id)}>
+                Edit
+              </button>
+              <button type="button" className="add-btn" title="Delete-Item" onClick={() => deleteItem(item.id)}>
+                Delete
+              </button>
+            </div>
           </div>
         ))}
       </div>
